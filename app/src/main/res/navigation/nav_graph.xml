@@ -40,7 +40,9 @@
         tools:layout="@layout/fragment_register">
 
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            android:id="@+id/action_RegisterFragment_to_LoginFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@+id/WelcomeFragment"
             app:enterAnim="@anim/fragment_fade_enter"
             app:exitAnim="@anim/fragment_fade_exit"
             app:destination="@id/LoginFragment" />
